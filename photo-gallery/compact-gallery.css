@@ -33,8 +33,8 @@ p{
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
+  color: rgba(0, 0, 0, 0.894);
+  background-color: #dddddd;
   text-align: center;
   cursor: pointer;
 }
@@ -299,32 +299,7 @@ background: #ddd;
   font-size: 20px;
 }
 
-/* css grid gallery */
 
-.grid-1 {
-	background:ddd;
-	-webkit-column-count:1;
-	-webkit-column-gap:10px;
-	-webkit-column-fill:auto;
-	-moz-column-count:1;
-	-moz-column-gap:10px;
-	-moz-column-fill:auto;
-	column-count:1;
-	column-gap:10px;
-	column-fill:auto;
-}
-
-.grid-item-1 {
-	display:inline-block;
-	background:#ddd;
-	margin:0 0 10px;
-	padding:10px;
-	padding-bottom:5px;
-	-webkit-column-break-inside:avoid;
-	-moz-column-break-inside:avoid;
-  column-break-inside:avoid;
-  
-}
 
 .hr-2 {
 	display:block;
